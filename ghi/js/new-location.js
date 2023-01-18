@@ -44,5 +44,3 @@ window.addEventListener('DOMContentLoaded', async () => {
       }
     });
   });
-
-  //
