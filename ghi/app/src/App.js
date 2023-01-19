@@ -1,4 +1,5 @@
 import Nav from './Nav';
+import MainPage from './MainPage';
 import AttendeesList from './AttendeesList';
 import LocationForm from './LocationForm';
 import ConferenceForm from './ConferenceForm';
@@ -15,6 +16,7 @@ function App(props) {
       <Nav />
       <div className="container">
         <Routes>
+          <Route index element={<MainPage />} />
           <Route path="conferences">
             <Route path="new" element={<ConferenceForm />} />
           </Route>
